@@ -1,0 +1,18 @@
+package Buoi2;
+
+public class Test {
+
+    static int count = 0;
+
+    public Test() {
+        count++;
+    }
+
+    public static void main(String[] args) {
+        new Test();
+        new Test();
+        new Test();
+
+        System.out.println(count);
+    }
+}
